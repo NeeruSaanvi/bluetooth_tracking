@@ -1,0 +1,1102 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		29273DB325A2FDD4009AC08C /* TrainModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 29273DB125A2FDD4009AC08C /* TrainModel.m */; };
+		2976633B2588CB75007F26F6 /* BlueToothCommTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 297663352588CB75007F26F6 /* BlueToothCommTool.m */; };
+		2976634B2588D084007F26F6 /* CommandModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 297663492588D084007F26F6 /* CommandModel.m */; };
+		299CAFF8256F79D2002CF15C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 299CAFF4256F79D2002CF15C /* LaunchScreen.storyboard */; };
+		299CAFF9256F79D2002CF15C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 299CAFF6256F79D2002CF15C /* Main.storyboard */; };
+		29EE2F7D256F7A53005B6FCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29EE2F66256F7A53005B6FCE /* Assets.xcassets */; };
+		29EE2F7E256F7A53005B6FCE /* Poppins-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 29EE2F69256F7A53005B6FCE /* Poppins-ExtraLight.ttf */; };
+		29EE2F7F256F7A53005B6FCE /* Poppins-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 29EE2F6A256F7A53005B6FCE /* Poppins-ThinItalic.ttf */; };
+		29EE2F80256F7A53005B6FCE /* Poppins-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 29EE2F6B256F7A53005B6FCE /* Poppins-ExtraLightItalic.ttf */; };
+		29EE2F81256F7A53005B6FCE /* Poppins-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 29EE2F6C256F7A53005B6FCE /* Poppins-BoldItalic.ttf */; };
+		29EE2F82256F7A53005B6FCE /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 29EE2F6D256F7A53005B6FCE /* Poppins-Light.ttf */; };
+		29EE2F83256F7A53005B6FCE /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 29EE2F6E256F7A53005B6FCE /* Poppins-Medium.ttf */; };
+		29EE2F84256F7A53005B6FCE /* Poppins-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 29EE2F6F256F7A53005B6FCE /* Poppins-SemiBoldItalic.ttf */; };
+		29EE2F85256F7A53005B6FCE /* Poppins-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 29EE2F70256F7A53005B6FCE /* Poppins-ExtraBoldItalic.ttf */; };
+		29EE2F86256F7A53005B6FCE /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 29EE2F71256F7A53005B6FCE /* Poppins-ExtraBold.ttf */; };
+		29EE2F87256F7A53005B6FCE /* Poppins-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 29EE2F72256F7A53005B6FCE /* Poppins-BlackItalic.ttf */; };
+		29EE2F88256F7A53005B6FCE /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 29EE2F73256F7A53005B6FCE /* OFL.txt */; };
+		29EE2F89256F7A53005B6FCE /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 29EE2F74256F7A53005B6FCE /* Poppins-Regular.ttf */; };
+		29EE2F8A256F7A53005B6FCE /* Poppins-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 29EE2F75256F7A53005B6FCE /* Poppins-LightItalic.ttf */; };
+		29EE2F8B256F7A53005B6FCE /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 29EE2F76256F7A53005B6FCE /* Poppins-Bold.ttf */; };
+		29EE2F8C256F7A53005B6FCE /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 29EE2F77256F7A53005B6FCE /* Poppins-Black.ttf */; };
+		29EE2F8D256F7A53005B6FCE /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 29EE2F78256F7A53005B6FCE /* Poppins-Thin.ttf */; };
+		29EE2F8E256F7A53005B6FCE /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 29EE2F79256F7A53005B6FCE /* Poppins-SemiBold.ttf */; };
+		29EE2F8F256F7A53005B6FCE /* Poppins-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 29EE2F7A256F7A53005B6FCE /* Poppins-Italic.ttf */; };
+		29EE2F90256F7A53005B6FCE /* Poppins-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 29EE2F7B256F7A53005B6FCE /* Poppins-MediumItalic.ttf */; };
+		29EE2FE8256F82F6005B6FCE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EE2FE6256F82F6005B6FCE /* AppDelegate.swift */; };
+		29EE2FE9256F82F6005B6FCE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EE2FE7256F82F6005B6FCE /* SceneDelegate.swift */; };
+		29EE3158256F8BD3005B6FCE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EE3157256F8BD3005B6FCE /* LoginViewController.swift */; };
+		AE422E4B255581C100D94C71 /* CompleteBodypartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE422E4A255581C100D94C71 /* CompleteBodypartVC.swift */; };
+		AE422E502555853200D94C71 /* MyProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE422E4F2555853200D94C71 /* MyProfileVC.swift */; };
+		AE44B73025D2872B003A7014 /* instructionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE44B72F25D2872B003A7014 /* instructionVC.swift */; };
+		AE67338F2555269D00C6C648 /* WeightdataVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE67338E2555269D00C6C648 /* WeightdataVC.swift */; };
+		AE6733952555438900C6C648 /* MyDataVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6733942555438900C6C648 /* MyDataVC.swift */; };
+		AE925076256E84E200B341F0 /* AboutusVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE925075256E84E200B341F0 /* AboutusVC.swift */; };
+		AE94C91A253EC8FC002E4B1E /* awipowerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE94C919253EC8FC002E4B1E /* awipowerTests.swift */; };
+		AE94C925253EC8FC002E4B1E /* awipowerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE94C924253EC8FC002E4B1E /* awipowerUITests.swift */; };
+		AEA3ED552563E6C40056EA75 /* WeightModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA3ED542563E6C40056EA75 /* WeightModel.swift */; };
+		AEA3ED5E2563F5710056EA75 /* ChangePasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA3ED5D2563F5710056EA75 /* ChangePasswordVC.swift */; };
+		AEA3ED632563F7650056EA75 /* Model_Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA3ED622563F7650056EA75 /* Model_Settings.swift */; };
+		AEB5B334255A8EFB00BEE2DC /* ModelProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB5B333255A8EFB00BEE2DC /* ModelProfile.swift */; };
+		AEB5B364255AA9A000BEE2DC /* Tabbaarcontrollr.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB5B363255AA9A000BEE2DC /* Tabbaarcontrollr.swift */; };
+		AEBB069E25493BF200BA07D4 /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBB069D25493BF200BA07D4 /* SideMenu.swift */; };
+		AEBB06A325493BF800BA07D4 /* SideMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBB06A225493BF800BA07D4 /* SideMenuCell.swift */; };
+		AEBB06A825493C0500BA07D4 /* BaseClassController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBB06A725493C0500BA07D4 /* BaseClassController.swift */; };
+		AEC5E78325483B2A000D8AA8 /* AgePickerviewVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC5E78225483B2A000D8AA8 /* AgePickerviewVc.swift */; };
+		AEC69BE9255276D10083BE68 /* ConnectWithDeviceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC69BE8255276D10083BE68 /* ConnectWithDeviceViewController.swift */; };
+		AEC69C53255298E90083BE68 /* bluetoothVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC69C52255298E90083BE68 /* bluetoothVc.swift */; };
+		AEC9CA43255C1E07000F3A76 /* ForgetpasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC9CA42255C1E07000F3A76 /* ForgetpasswordVC.swift */; };
+		AECEABBF255D35E30008C20A /* SettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECEABBE255D35E30008C20A /* SettingVC.swift */; };
+		AECEAC34255D4D790008C20A /* MyDataDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECEAC33255D4D790008C20A /* MyDataDetailsVC.swift */; };
+		AED6C3B6254FBF9100A99A32 /* RestApiCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED6C3AF254FBF9100A99A32 /* RestApiCall.swift */; };
+		AED6C3B7254FBF9100A99A32 /* ModelStaticAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED6C3B0254FBF9100A99A32 /* ModelStaticAPI.swift */; };
+		AED6C3B8254FBF9100A99A32 /* Comman.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED6C3B1254FBF9100A99A32 /* Comman.swift */; };
+		AED6C3B9254FBF9100A99A32 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED6C3B2254FBF9100A99A32 /* Extension.swift */; };
+		AED6C3BA254FBF9100A99A32 /* UtilityClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED6C3B3254FBF9100A99A32 /* UtilityClass.swift */; };
+		AED6C3BB254FBF9100A99A32 /* PickerClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED6C3B4254FBF9100A99A32 /* PickerClass.swift */; };
+		AED6C3BC254FBF9100A99A32 /* MyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED6C3B5254FBF9100A99A32 /* MyTextField.swift */; };
+		AED7E321255113F000387971 /* Loginmodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED7E320255113F000387971 /* Loginmodel.swift */; };
+		AED7E3392551692700387971 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED7E3382551692700387971 /* RegisterVC.swift */; };
+		AED7E33E2551817800387971 /* Registermodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED7E33D2551817700387971 /* Registermodel.swift */; };
+		AED7E36725518D3F00387971 /* CaloriesburnVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED7E36625518D3F00387971 /* CaloriesburnVC.swift */; };
+		AED9BF142553B894008C0283 /* HomeListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED9BF132553B894008C0283 /* HomeListVC.swift */; };
+		AEDA1361255A5EC80096E625 /* TermandCondtionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDA1360255A5EC80096E625 /* TermandCondtionViewController.swift */; };
+		AEE60558255191BA00A45204 /* Caloriesmodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE60557255191BA00A45204 /* Caloriesmodel.swift */; };
+		AEFD94E525C98300004B567D /* WeightPickerViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFD94E425C98300004B567D /* WeightPickerViewViewController.swift */; };
+		DF371C82F4E424E99C1023A2 /* Pods_awipower.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD4A274C46870194349A7297 /* Pods_awipower.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE94C916253EC8FC002E4B1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE94C8F7253EC8FA002E4B1E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE94C8FE253EC8FA002E4B1E;
+			remoteInfo = awipower;
+		};
+		AE94C921253EC8FC002E4B1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE94C8F7253EC8FA002E4B1E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE94C8FE253EC8FA002E4B1E;
+			remoteInfo = awipower;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		29273DB125A2FDD4009AC08C /* TrainModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrainModel.m; sourceTree = "<group>"; };
+		29273DB225A2FDD4009AC08C /* TrainModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrainModel.h; sourceTree = "<group>"; };
+		297663352588CB75007F26F6 /* BlueToothCommTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlueToothCommTool.m; sourceTree = "<group>"; };
+		297663362588CB75007F26F6 /* BlueToothCommTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlueToothCommTool.h; sourceTree = "<group>"; };
+		297663482588D084007F26F6 /* CommandModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommandModel.h; sourceTree = "<group>"; };
+		297663492588D084007F26F6 /* CommandModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommandModel.m; sourceTree = "<group>"; };
+		2976634A2588D084007F26F6 /* awipower-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "awipower-Bridging-Header.h"; sourceTree = "<group>"; };
+		299CAFF5256F79D2002CF15C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		299CAFF7256F79D2002CF15C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		29EE2F66256F7A53005B6FCE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		29EE2F69256F7A53005B6FCE /* Poppins-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLight.ttf"; sourceTree = "<group>"; };
+		29EE2F6A256F7A53005B6FCE /* Poppins-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ThinItalic.ttf"; sourceTree = "<group>"; };
+		29EE2F6B256F7A53005B6FCE /* Poppins-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		29EE2F6C256F7A53005B6FCE /* Poppins-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BoldItalic.ttf"; sourceTree = "<group>"; };
+		29EE2F6D256F7A53005B6FCE /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
+		29EE2F6E256F7A53005B6FCE /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		29EE2F6F256F7A53005B6FCE /* Poppins-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		29EE2F70256F7A53005B6FCE /* Poppins-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		29EE2F71256F7A53005B6FCE /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBold.ttf"; sourceTree = "<group>"; };
+		29EE2F72256F7A53005B6FCE /* Poppins-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BlackItalic.ttf"; sourceTree = "<group>"; };
+		29EE2F73256F7A53005B6FCE /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		29EE2F74256F7A53005B6FCE /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		29EE2F75256F7A53005B6FCE /* Poppins-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-LightItalic.ttf"; sourceTree = "<group>"; };
+		29EE2F76256F7A53005B6FCE /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		29EE2F77256F7A53005B6FCE /* Poppins-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Black.ttf"; sourceTree = "<group>"; };
+		29EE2F78256F7A53005B6FCE /* Poppins-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Thin.ttf"; sourceTree = "<group>"; };
+		29EE2F79256F7A53005B6FCE /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		29EE2F7A256F7A53005B6FCE /* Poppins-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Italic.ttf"; sourceTree = "<group>"; };
+		29EE2F7B256F7A53005B6FCE /* Poppins-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-MediumItalic.ttf"; sourceTree = "<group>"; };
+		29EE2F7C256F7A53005B6FCE /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29EE2FE6256F82F6005B6FCE /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		29EE2FE7256F82F6005B6FCE /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		29EE3157256F8BD3005B6FCE /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		767824791E1EB8381615E3C5 /* Pods-awipower.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-awipower.debug.xcconfig"; path = "Target Support Files/Pods-awipower/Pods-awipower.debug.xcconfig"; sourceTree = "<group>"; };
+		AD4A274C46870194349A7297 /* Pods_awipower.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_awipower.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE422E4A255581C100D94C71 /* CompleteBodypartVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteBodypartVC.swift; sourceTree = "<group>"; };
+		AE422E4F2555853200D94C71 /* MyProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileVC.swift; sourceTree = "<group>"; };
+		AE44B72F25D2872B003A7014 /* instructionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = instructionVC.swift; sourceTree = "<group>"; };
+		AE67338E2555269D00C6C648 /* WeightdataVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightdataVC.swift; sourceTree = "<group>"; };
+		AE6733942555438900C6C648 /* MyDataVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDataVC.swift; sourceTree = "<group>"; };
+		AE925075256E84E200B341F0 /* AboutusVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutusVC.swift; sourceTree = "<group>"; };
+		AE94C8FF253EC8FA002E4B1E /* awipower.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = awipower.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE94C915253EC8FC002E4B1E /* awipowerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = awipowerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE94C919253EC8FC002E4B1E /* awipowerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = awipowerTests.swift; sourceTree = "<group>"; };
+		AE94C91B253EC8FC002E4B1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE94C920253EC8FC002E4B1E /* awipowerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = awipowerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE94C924253EC8FC002E4B1E /* awipowerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = awipowerUITests.swift; sourceTree = "<group>"; };
+		AE94C926253EC8FC002E4B1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEA3ED542563E6C40056EA75 /* WeightModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightModel.swift; sourceTree = "<group>"; };
+		AEA3ED5D2563F5710056EA75 /* ChangePasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordVC.swift; sourceTree = "<group>"; };
+		AEA3ED622563F7650056EA75 /* Model_Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model_Settings.swift; sourceTree = "<group>"; };
+		AEB5B333255A8EFB00BEE2DC /* ModelProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelProfile.swift; sourceTree = "<group>"; };
+		AEB5B363255AA9A000BEE2DC /* Tabbaarcontrollr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tabbaarcontrollr.swift; sourceTree = "<group>"; };
+		AEBB069D25493BF200BA07D4 /* SideMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
+		AEBB06A225493BF800BA07D4 /* SideMenuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuCell.swift; sourceTree = "<group>"; };
+		AEBB06A725493C0500BA07D4 /* BaseClassController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseClassController.swift; sourceTree = "<group>"; };
+		AEC5E78225483B2A000D8AA8 /* AgePickerviewVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgePickerviewVc.swift; sourceTree = "<group>"; };
+		AEC69BE8255276D10083BE68 /* ConnectWithDeviceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectWithDeviceViewController.swift; sourceTree = "<group>"; };
+		AEC69C52255298E90083BE68 /* bluetoothVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bluetoothVc.swift; sourceTree = "<group>"; };
+		AEC9CA42255C1E07000F3A76 /* ForgetpasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetpasswordVC.swift; sourceTree = "<group>"; };
+		AECEABBE255D35E30008C20A /* SettingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingVC.swift; sourceTree = "<group>"; };
+		AECEAC33255D4D790008C20A /* MyDataDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDataDetailsVC.swift; sourceTree = "<group>"; };
+		AED6C3AF254FBF9100A99A32 /* RestApiCall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestApiCall.swift; sourceTree = "<group>"; };
+		AED6C3B0254FBF9100A99A32 /* ModelStaticAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelStaticAPI.swift; sourceTree = "<group>"; };
+		AED6C3B1254FBF9100A99A32 /* Comman.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Comman.swift; sourceTree = "<group>"; };
+		AED6C3B2254FBF9100A99A32 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		AED6C3B3254FBF9100A99A32 /* UtilityClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UtilityClass.swift; sourceTree = "<group>"; };
+		AED6C3B4254FBF9100A99A32 /* PickerClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerClass.swift; sourceTree = "<group>"; };
+		AED6C3B5254FBF9100A99A32 /* MyTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTextField.swift; sourceTree = "<group>"; };
+		AED7E320255113F000387971 /* Loginmodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loginmodel.swift; sourceTree = "<group>"; };
+		AED7E3382551692700387971 /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
+		AED7E33D2551817700387971 /* Registermodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Registermodel.swift; sourceTree = "<group>"; };
+		AED7E36625518D3F00387971 /* CaloriesburnVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaloriesburnVC.swift; sourceTree = "<group>"; };
+		AED9BF132553B894008C0283 /* HomeListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeListVC.swift; sourceTree = "<group>"; };
+		AEDA1360255A5EC80096E625 /* TermandCondtionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermandCondtionViewController.swift; sourceTree = "<group>"; };
+		AEE60557255191BA00A45204 /* Caloriesmodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Caloriesmodel.swift; sourceTree = "<group>"; };
+		AEEEE78425D3B3F7000BF2A8 /* BlueToothManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlueToothManager.h; sourceTree = "<group>"; };
+		AEFD94E425C98300004B567D /* WeightPickerViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightPickerViewViewController.swift; sourceTree = "<group>"; };
+		C5B137B9289B03379AFFFC5A /* Pods-awipower.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-awipower.release.xcconfig"; path = "Target Support Files/Pods-awipower/Pods-awipower.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE94C8FC253EC8FA002E4B1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF371C82F4E424E99C1023A2 /* Pods_awipower.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE94C912253EC8FC002E4B1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE94C91D253EC8FC002E4B1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		297663322588CB51007F26F6 /* Bluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				AEEEE78425D3B3F7000BF2A8 /* BlueToothManager.h */,
+				297663362588CB75007F26F6 /* BlueToothCommTool.h */,
+				297663352588CB75007F26F6 /* BlueToothCommTool.m */,
+				2976634A2588D084007F26F6 /* awipower-Bridging-Header.h */,
+				297663482588D084007F26F6 /* CommandModel.h */,
+				297663492588D084007F26F6 /* CommandModel.m */,
+				29273DB225A2FDD4009AC08C /* TrainModel.h */,
+				29273DB125A2FDD4009AC08C /* TrainModel.m */,
+			);
+			path = Bluetooth;
+			sourceTree = "<group>";
+		};
+		299CAFAC256F7678002CF15C /* stroyboard */ = {
+			isa = PBXGroup;
+			children = (
+				299CAFF4256F79D2002CF15C /* LaunchScreen.storyboard */,
+				299CAFF6256F79D2002CF15C /* Main.storyboard */,
+			);
+			path = stroyboard;
+			sourceTree = "<group>";
+		};
+		29EE2F65256F7A53005B6FCE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				29EE2F66256F7A53005B6FCE /* Assets.xcassets */,
+				29EE2F67256F7A53005B6FCE /* Fonts */,
+				29EE2F7C256F7A53005B6FCE /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		29EE2F67256F7A53005B6FCE /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				29EE2F68256F7A53005B6FCE /* Poppins */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		29EE2F68256F7A53005B6FCE /* Poppins */ = {
+			isa = PBXGroup;
+			children = (
+				29EE2F69256F7A53005B6FCE /* Poppins-ExtraLight.ttf */,
+				29EE2F6A256F7A53005B6FCE /* Poppins-ThinItalic.ttf */,
+				29EE2F6B256F7A53005B6FCE /* Poppins-ExtraLightItalic.ttf */,
+				29EE2F6C256F7A53005B6FCE /* Poppins-BoldItalic.ttf */,
+				29EE2F6D256F7A53005B6FCE /* Poppins-Light.ttf */,
+				29EE2F6E256F7A53005B6FCE /* Poppins-Medium.ttf */,
+				29EE2F6F256F7A53005B6FCE /* Poppins-SemiBoldItalic.ttf */,
+				29EE2F70256F7A53005B6FCE /* Poppins-ExtraBoldItalic.ttf */,
+				29EE2F71256F7A53005B6FCE /* Poppins-ExtraBold.ttf */,
+				29EE2F72256F7A53005B6FCE /* Poppins-BlackItalic.ttf */,
+				29EE2F73256F7A53005B6FCE /* OFL.txt */,
+				29EE2F74256F7A53005B6FCE /* Poppins-Regular.ttf */,
+				29EE2F75256F7A53005B6FCE /* Poppins-LightItalic.ttf */,
+				29EE2F76256F7A53005B6FCE /* Poppins-Bold.ttf */,
+				29EE2F77256F7A53005B6FCE /* Poppins-Black.ttf */,
+				29EE2F78256F7A53005B6FCE /* Poppins-Thin.ttf */,
+				29EE2F79256F7A53005B6FCE /* Poppins-SemiBold.ttf */,
+				29EE2F7A256F7A53005B6FCE /* Poppins-Italic.ttf */,
+				29EE2F7B256F7A53005B6FCE /* Poppins-MediumItalic.ttf */,
+			);
+			path = Poppins;
+			sourceTree = "<group>";
+		};
+		29EE2FE5256F82F6005B6FCE /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				29EE2FE6256F82F6005B6FCE /* AppDelegate.swift */,
+				29EE2FE7256F82F6005B6FCE /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		406F3FCF7E0D4CF9AF89DA5F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD4A274C46870194349A7297 /* Pods_awipower.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE67338D2555252B00C6C648 /* bloothdevice */ = {
+			isa = PBXGroup;
+			children = (
+				AEC69C52255298E90083BE68 /* bluetoothVc.swift */,
+				AEC69BE8255276D10083BE68 /* ConnectWithDeviceViewController.swift */,
+			);
+			path = bloothdevice;
+			sourceTree = "<group>";
+		};
+		AE6733932555435700C6C648 /* MydataView */ = {
+			isa = PBXGroup;
+			children = (
+				AE6733942555438900C6C648 /* MyDataVC.swift */,
+				AECEAC33255D4D790008C20A /* MyDataDetailsVC.swift */,
+			);
+			path = MydataView;
+			sourceTree = "<group>";
+		};
+		AE925074256E84BF00B341F0 /* Aboutus */ = {
+			isa = PBXGroup;
+			children = (
+				AE925075256E84E200B341F0 /* AboutusVC.swift */,
+			);
+			path = Aboutus;
+			sourceTree = "<group>";
+		};
+		AE94C8F6253EC8FA002E4B1E = {
+			isa = PBXGroup;
+			children = (
+				AE94C901253EC8FA002E4B1E /* awipower */,
+				AE94C918253EC8FC002E4B1E /* awipowerTests */,
+				AE94C923253EC8FC002E4B1E /* awipowerUITests */,
+				AE94C900253EC8FA002E4B1E /* Products */,
+				BA13F0A7E7FA34EA5D6B0465 /* Pods */,
+				406F3FCF7E0D4CF9AF89DA5F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AE94C900253EC8FA002E4B1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE94C8FF253EC8FA002E4B1E /* awipower.app */,
+				AE94C915253EC8FC002E4B1E /* awipowerTests.xctest */,
+				AE94C920253EC8FC002E4B1E /* awipowerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE94C901253EC8FA002E4B1E /* awipower */ = {
+			isa = PBXGroup;
+			children = (
+				29EE2FE5256F82F6005B6FCE /* Delegates */,
+				AED7E36525518CCB00387971 /* Viewcontroller */,
+				299CAFAC256F7678002CF15C /* stroyboard */,
+				AED7E31F255113CF00387971 /* modelclass */,
+				AED6C3AE254FBF9100A99A32 /* UtilityClass */,
+				AEBB069C25493BDD00BA07D4 /* Sidemenu */,
+				29EE2F65256F7A53005B6FCE /* Resources */,
+			);
+			path = awipower;
+			sourceTree = "<group>";
+		};
+		AE94C918253EC8FC002E4B1E /* awipowerTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE94C919253EC8FC002E4B1E /* awipowerTests.swift */,
+				AE94C91B253EC8FC002E4B1E /* Info.plist */,
+			);
+			path = awipowerTests;
+			sourceTree = "<group>";
+		};
+		AE94C923253EC8FC002E4B1E /* awipowerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AE94C924253EC8FC002E4B1E /* awipowerUITests.swift */,
+				AE94C926253EC8FC002E4B1E /* Info.plist */,
+			);
+			path = awipowerUITests;
+			sourceTree = "<group>";
+		};
+		AEA3ED592563F52E0056EA75 /* Change Password */ = {
+			isa = PBXGroup;
+			children = (
+				AEA3ED5D2563F5710056EA75 /* ChangePasswordVC.swift */,
+			);
+			path = "Change Password";
+			sourceTree = "<group>";
+		};
+		AEB5B362255AA20D00BEE2DC /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				AEB5B363255AA9A000BEE2DC /* Tabbaarcontrollr.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		AEBB069C25493BDD00BA07D4 /* Sidemenu */ = {
+			isa = PBXGroup;
+			children = (
+				AEBB06A725493C0500BA07D4 /* BaseClassController.swift */,
+				AEBB06A225493BF800BA07D4 /* SideMenuCell.swift */,
+				AEBB069D25493BF200BA07D4 /* SideMenu.swift */,
+			);
+			path = Sidemenu;
+			sourceTree = "<group>";
+		};
+		AECEABA7255D34080008C20A /* Caloriesburn */ = {
+			isa = PBXGroup;
+			children = (
+				AECEABBE255D35E30008C20A /* SettingVC.swift */,
+				AED7E36625518D3F00387971 /* CaloriesburnVC.swift */,
+			);
+			path = Caloriesburn;
+			sourceTree = "<group>";
+		};
+		AECEABB1255D342D0008C20A /* Weight */ = {
+			isa = PBXGroup;
+			children = (
+				AEC5E78225483B2A000D8AA8 /* AgePickerviewVc.swift */,
+				AE67338E2555269D00C6C648 /* WeightdataVC.swift */,
+				AEFD94E425C98300004B567D /* WeightPickerViewViewController.swift */,
+			);
+			path = Weight;
+			sourceTree = "<group>";
+		};
+		AECEABBB255D34770008C20A /* Completetbody */ = {
+			isa = PBXGroup;
+			children = (
+				AE422E4A255581C100D94C71 /* CompleteBodypartVC.swift */,
+			);
+			path = Completetbody;
+			sourceTree = "<group>";
+		};
+		AECEABBC255D34910008C20A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				AED9BF132553B894008C0283 /* HomeListVC.swift */,
+				AE44B72F25D2872B003A7014 /* instructionVC.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		AECEABBD255D35650008C20A /* MyProfile */ = {
+			isa = PBXGroup;
+			children = (
+				AE422E4F2555853200D94C71 /* MyProfileVC.swift */,
+			);
+			path = MyProfile;
+			sourceTree = "<group>";
+		};
+		AED6C3AE254FBF9100A99A32 /* UtilityClass */ = {
+			isa = PBXGroup;
+			children = (
+				AED6C3AF254FBF9100A99A32 /* RestApiCall.swift */,
+				AED6C3B0254FBF9100A99A32 /* ModelStaticAPI.swift */,
+				AED6C3B1254FBF9100A99A32 /* Comman.swift */,
+				AED6C3B2254FBF9100A99A32 /* Extension.swift */,
+				AED6C3B3254FBF9100A99A32 /* UtilityClass.swift */,
+				AED6C3B4254FBF9100A99A32 /* PickerClass.swift */,
+				AED6C3B5254FBF9100A99A32 /* MyTextField.swift */,
+			);
+			path = UtilityClass;
+			sourceTree = "<group>";
+		};
+		AED7E31F255113CF00387971 /* modelclass */ = {
+			isa = PBXGroup;
+			children = (
+				AEA3ED622563F7650056EA75 /* Model_Settings.swift */,
+				AEB5B333255A8EFB00BEE2DC /* ModelProfile.swift */,
+				AED7E320255113F000387971 /* Loginmodel.swift */,
+				AEE60557255191BA00A45204 /* Caloriesmodel.swift */,
+				AED7E33D2551817700387971 /* Registermodel.swift */,
+				AEA3ED542563E6C40056EA75 /* WeightModel.swift */,
+			);
+			path = modelclass;
+			sourceTree = "<group>";
+		};
+		AED7E334255168B200387971 /* LoginandRegister */ = {
+			isa = PBXGroup;
+			children = (
+				AEC9CA42255C1E07000F3A76 /* ForgetpasswordVC.swift */,
+				AED7E3382551692700387971 /* RegisterVC.swift */,
+				29EE3157256F8BD3005B6FCE /* LoginViewController.swift */,
+			);
+			path = LoginandRegister;
+			sourceTree = "<group>";
+		};
+		AED7E36525518CCB00387971 /* Viewcontroller */ = {
+			isa = PBXGroup;
+			children = (
+				AE925074256E84BF00B341F0 /* Aboutus */,
+				AEA3ED592563F52E0056EA75 /* Change Password */,
+				AECEABBD255D35650008C20A /* MyProfile */,
+				AECEABBC255D34910008C20A /* Home */,
+				AECEABBB255D34770008C20A /* Completetbody */,
+				AEB5B362255AA20D00BEE2DC /* TabBar */,
+				AE6733932555435700C6C648 /* MydataView */,
+				AE67338D2555252B00C6C648 /* bloothdevice */,
+				AED7E334255168B200387971 /* LoginandRegister */,
+				AECEABB1255D342D0008C20A /* Weight */,
+				AECEABA7255D34080008C20A /* Caloriesburn */,
+				AEDA1360255A5EC80096E625 /* TermandCondtionViewController.swift */,
+				297663322588CB51007F26F6 /* Bluetooth */,
+			);
+			path = Viewcontroller;
+			sourceTree = "<group>";
+		};
+		BA13F0A7E7FA34EA5D6B0465 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				767824791E1EB8381615E3C5 /* Pods-awipower.debug.xcconfig */,
+				C5B137B9289B03379AFFFC5A /* Pods-awipower.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE94C8FE253EC8FA002E4B1E /* awipower */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE94C929253EC8FC002E4B1E /* Build configuration list for PBXNativeTarget "awipower" */;
+			buildPhases = (
+				9D224F33D1F73644475D4A17 /* [CP] Check Pods Manifest.lock */,
+				AE94C8FB253EC8FA002E4B1E /* Sources */,
+				AE94C8FC253EC8FA002E4B1E /* Frameworks */,
+				AE94C8FD253EC8FA002E4B1E /* Resources */,
+				D05D256105EED025FC383617 /* [CP] Embed Pods Frameworks */,
+				D6B9DB3FE2389941A0B6B7E5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = awipower;
+			productName = awipower;
+			productReference = AE94C8FF253EC8FA002E4B1E /* awipower.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE94C914253EC8FC002E4B1E /* awipowerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE94C92C253EC8FC002E4B1E /* Build configuration list for PBXNativeTarget "awipowerTests" */;
+			buildPhases = (
+				AE94C911253EC8FC002E4B1E /* Sources */,
+				AE94C912253EC8FC002E4B1E /* Frameworks */,
+				AE94C913253EC8FC002E4B1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE94C917253EC8FC002E4B1E /* PBXTargetDependency */,
+			);
+			name = awipowerTests;
+			productName = awipowerTests;
+			productReference = AE94C915253EC8FC002E4B1E /* awipowerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AE94C91F253EC8FC002E4B1E /* awipowerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE94C92F253EC8FC002E4B1E /* Build configuration list for PBXNativeTarget "awipowerUITests" */;
+			buildPhases = (
+				AE94C91C253EC8FC002E4B1E /* Sources */,
+				AE94C91D253EC8FC002E4B1E /* Frameworks */,
+				AE94C91E253EC8FC002E4B1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE94C922253EC8FC002E4B1E /* PBXTargetDependency */,
+			);
+			name = awipowerUITests;
+			productName = awipowerUITests;
+			productReference = AE94C920253EC8FC002E4B1E /* awipowerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE94C8F7253EC8FA002E4B1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					AE94C8FE253EC8FA002E4B1E = {
+						CreatedOnToolsVersion = 12.0.1;
+						LastSwiftMigration = 1200;
+					};
+					AE94C914253EC8FC002E4B1E = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = AE94C8FE253EC8FA002E4B1E;
+					};
+					AE94C91F253EC8FC002E4B1E = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = AE94C8FE253EC8FA002E4B1E;
+					};
+				};
+			};
+			buildConfigurationList = AE94C8FA253EC8FA002E4B1E /* Build configuration list for PBXProject "awipower" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE94C8F6253EC8FA002E4B1E;
+			productRefGroup = AE94C900253EC8FA002E4B1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE94C8FE253EC8FA002E4B1E /* awipower */,
+				AE94C914253EC8FC002E4B1E /* awipowerTests */,
+				AE94C91F253EC8FC002E4B1E /* awipowerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE94C8FD253EC8FA002E4B1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29EE2F8D256F7A53005B6FCE /* Poppins-Thin.ttf in Resources */,
+				29EE2F90256F7A53005B6FCE /* Poppins-MediumItalic.ttf in Resources */,
+				29EE2F88256F7A53005B6FCE /* OFL.txt in Resources */,
+				29EE2F80256F7A53005B6FCE /* Poppins-ExtraLightItalic.ttf in Resources */,
+				29EE2F87256F7A53005B6FCE /* Poppins-BlackItalic.ttf in Resources */,
+				29EE2F7E256F7A53005B6FCE /* Poppins-ExtraLight.ttf in Resources */,
+				29EE2F8E256F7A53005B6FCE /* Poppins-SemiBold.ttf in Resources */,
+				29EE2F81256F7A53005B6FCE /* Poppins-BoldItalic.ttf in Resources */,
+				29EE2F82256F7A53005B6FCE /* Poppins-Light.ttf in Resources */,
+				29EE2F8C256F7A53005B6FCE /* Poppins-Black.ttf in Resources */,
+				29EE2F8F256F7A53005B6FCE /* Poppins-Italic.ttf in Resources */,
+				29EE2F86256F7A53005B6FCE /* Poppins-ExtraBold.ttf in Resources */,
+				29EE2F8A256F7A53005B6FCE /* Poppins-LightItalic.ttf in Resources */,
+				299CAFF9256F79D2002CF15C /* Main.storyboard in Resources */,
+				29EE2F84256F7A53005B6FCE /* Poppins-SemiBoldItalic.ttf in Resources */,
+				29EE2F89256F7A53005B6FCE /* Poppins-Regular.ttf in Resources */,
+				29EE2F85256F7A53005B6FCE /* Poppins-ExtraBoldItalic.ttf in Resources */,
+				29EE2F8B256F7A53005B6FCE /* Poppins-Bold.ttf in Resources */,
+				29EE2F7F256F7A53005B6FCE /* Poppins-ThinItalic.ttf in Resources */,
+				29EE2F83256F7A53005B6FCE /* Poppins-Medium.ttf in Resources */,
+				29EE2F7D256F7A53005B6FCE /* Assets.xcassets in Resources */,
+				299CAFF8256F79D2002CF15C /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE94C913253EC8FC002E4B1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE94C91E253EC8FC002E4B1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9D224F33D1F73644475D4A17 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-awipower-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D05D256105EED025FC383617 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-awipower/Pods-awipower-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-awipower/Pods-awipower-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-awipower/Pods-awipower-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6B9DB3FE2389941A0B6B7E5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-awipower/Pods-awipower-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-awipower/Pods-awipower-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-awipower/Pods-awipower-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE94C8FB253EC8FA002E4B1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AED6C3B6254FBF9100A99A32 /* RestApiCall.swift in Sources */,
+				AED7E321255113F000387971 /* Loginmodel.swift in Sources */,
+				AEB5B364255AA9A000BEE2DC /* Tabbaarcontrollr.swift in Sources */,
+				AEA3ED632563F7650056EA75 /* Model_Settings.swift in Sources */,
+				AEDA1361255A5EC80096E625 /* TermandCondtionViewController.swift in Sources */,
+				AED6C3BC254FBF9100A99A32 /* MyTextField.swift in Sources */,
+				AED6C3BB254FBF9100A99A32 /* PickerClass.swift in Sources */,
+				AEA3ED552563E6C40056EA75 /* WeightModel.swift in Sources */,
+				AEE60558255191BA00A45204 /* Caloriesmodel.swift in Sources */,
+				AEA3ED5E2563F5710056EA75 /* ChangePasswordVC.swift in Sources */,
+				29EE2FE9256F82F6005B6FCE /* SceneDelegate.swift in Sources */,
+				AE422E502555853200D94C71 /* MyProfileVC.swift in Sources */,
+				AED6C3B8254FBF9100A99A32 /* Comman.swift in Sources */,
+				AEC9CA43255C1E07000F3A76 /* ForgetpasswordVC.swift in Sources */,
+				2976633B2588CB75007F26F6 /* BlueToothCommTool.m in Sources */,
+				2976634B2588D084007F26F6 /* CommandModel.m in Sources */,
+				AECEABBF255D35E30008C20A /* SettingVC.swift in Sources */,
+				AE67338F2555269D00C6C648 /* WeightdataVC.swift in Sources */,
+				AED6C3B7254FBF9100A99A32 /* ModelStaticAPI.swift in Sources */,
+				AED6C3B9254FBF9100A99A32 /* Extension.swift in Sources */,
+				29EE2FE8256F82F6005B6FCE /* AppDelegate.swift in Sources */,
+				29273DB325A2FDD4009AC08C /* TrainModel.m in Sources */,
+				AECEAC34255D4D790008C20A /* MyDataDetailsVC.swift in Sources */,
+				AE422E4B255581C100D94C71 /* CompleteBodypartVC.swift in Sources */,
+				AED7E3392551692700387971 /* RegisterVC.swift in Sources */,
+				AEBB069E25493BF200BA07D4 /* SideMenu.swift in Sources */,
+				29EE3158256F8BD3005B6FCE /* LoginViewController.swift in Sources */,
+				AEC69C53255298E90083BE68 /* bluetoothVc.swift in Sources */,
+				AED7E33E2551817800387971 /* Registermodel.swift in Sources */,
+				AED9BF142553B894008C0283 /* HomeListVC.swift in Sources */,
+				AED6C3BA254FBF9100A99A32 /* UtilityClass.swift in Sources */,
+				AEFD94E525C98300004B567D /* WeightPickerViewViewController.swift in Sources */,
+				AEC69BE9255276D10083BE68 /* ConnectWithDeviceViewController.swift in Sources */,
+				AE44B73025D2872B003A7014 /* instructionVC.swift in Sources */,
+				AED7E36725518D3F00387971 /* CaloriesburnVC.swift in Sources */,
+				AEBB06A825493C0500BA07D4 /* BaseClassController.swift in Sources */,
+				AE6733952555438900C6C648 /* MyDataVC.swift in Sources */,
+				AEC5E78325483B2A000D8AA8 /* AgePickerviewVc.swift in Sources */,
+				AEBB06A325493BF800BA07D4 /* SideMenuCell.swift in Sources */,
+				AE925076256E84E200B341F0 /* AboutusVC.swift in Sources */,
+				AEB5B334255A8EFB00BEE2DC /* ModelProfile.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE94C911253EC8FC002E4B1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE94C91A253EC8FC002E4B1E /* awipowerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE94C91C253EC8FC002E4B1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE94C925253EC8FC002E4B1E /* awipowerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE94C917253EC8FC002E4B1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE94C8FE253EC8FA002E4B1E /* awipower */;
+			targetProxy = AE94C916253EC8FC002E4B1E /* PBXContainerItemProxy */;
+		};
+		AE94C922253EC8FC002E4B1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE94C8FE253EC8FA002E4B1E /* awipower */;
+			targetProxy = AE94C921253EC8FC002E4B1E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		299CAFF4256F79D2002CF15C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				299CAFF5256F79D2002CF15C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		299CAFF6256F79D2002CF15C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				299CAFF7256F79D2002CF15C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE94C927253EC8FC002E4B1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AE94C928253EC8FC002E4B1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE94C92A253EC8FC002E4B1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 767824791E1EB8381615E3C5 /* Pods-awipower.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_TEAM = AYWKXAV6S7;
+				INFOPLIST_FILE = "$(SRCROOT)/awipower/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pinesucceed.awipower;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "awipower/Viewcontroller/Bluetooth/awipower-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE94C92B253EC8FC002E4B1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5B137B9289B03379AFFFC5A /* Pods-awipower.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_TEAM = AYWKXAV6S7;
+				INFOPLIST_FILE = "$(SRCROOT)/awipower/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pinesucceed.awipower;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "awipower/Viewcontroller/Bluetooth/awipower-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AE94C92D253EC8FC002E4B1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = awipowerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pinesucceed.awipowerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/awipower.app/awipower";
+			};
+			name = Debug;
+		};
+		AE94C92E253EC8FC002E4B1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = awipowerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pinesucceed.awipowerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/awipower.app/awipower";
+			};
+			name = Release;
+		};
+		AE94C930253EC8FC002E4B1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = awipowerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pinesucceed.awipowerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = awipower;
+			};
+			name = Debug;
+		};
+		AE94C931253EC8FC002E4B1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = awipowerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pinesucceed.awipowerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = awipower;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE94C8FA253EC8FA002E4B1E /* Build configuration list for PBXProject "awipower" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE94C927253EC8FC002E4B1E /* Debug */,
+				AE94C928253EC8FC002E4B1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE94C929253EC8FC002E4B1E /* Build configuration list for PBXNativeTarget "awipower" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE94C92A253EC8FC002E4B1E /* Debug */,
+				AE94C92B253EC8FC002E4B1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE94C92C253EC8FC002E4B1E /* Build configuration list for PBXNativeTarget "awipowerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE94C92D253EC8FC002E4B1E /* Debug */,
+				AE94C92E253EC8FC002E4B1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE94C92F253EC8FC002E4B1E /* Build configuration list for PBXNativeTarget "awipowerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE94C930253EC8FC002E4B1E /* Debug */,
+				AE94C931253EC8FC002E4B1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE94C8F7253EC8FA002E4B1E /* Project object */;
+}
